@@ -1,0 +1,54 @@
+# Rewrites the app from a release of Navree and opens a pull request. The
+# framework's release workflow sends `navree-release` with the version.
+name: Regenerate
+
+on:
+  repository_dispatch:
+    types: [navree-release]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: The released version of Navree, for example 1.0.1
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  regenerate:
+    name: Regenerate from the release
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      VERSION: ${{ github.event.client_payload.version || inputs.version }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+      - uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+      - name: Check the version
+        run: |
+          case "$VERSION" in
+            [0-9]*.[0-9]*.[0-9]*) ;;
+            *) echo "not a version: '$VERSION'" >&2; exit 1 ;;
+          esac
+      - name: Regenerate
+        run: scripts/regenerate.sh "$VERSION"
+      - name: Open the pull request
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="regenerate/$VERSION"
+          git switch --create "$branch"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "The skeleton is already what navree $VERSION writes."
+            exit 0
+          fi
+          git commit --message "Navree $VERSION"
+          git push --force origin "$branch"
+          gh pr create --base main --head "$branch" --title "Navree $VERSION" \
+            --body "The app that \`navree new\` writes at $VERSION." || gh pr edit "$branch" --title "Navree $VERSION"

@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # The app is rewritten from each release of Navree, so the crates it depends on
+  # change only through that process.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
