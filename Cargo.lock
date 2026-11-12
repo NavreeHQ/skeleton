@@ -872,9 +872,9 @@ checksum = "00d174d5400e5e8fd687ad1049e2f578285fa914201b1af7e8b112a4546bd826"
 
 [[package]]
 name = "errno"
-version = "0.3.14"
+version = "0.3.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
+checksum = "e35d6e78f4cebb90e51d543db8fe41528851d6deeef6ef21ebd4bfdc1e784776"
 dependencies = [
  "libc",
  "windows-sys 0.61.2",
@@ -2259,9 +2259,9 @@ checksum = "743fb55ba31b18fb1ecef6bdc9aa2743314978ac084044301a7eee33fb99a20d"
 
 [[package]]
 name = "navree"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1abcaa26c4d27083b306f0a16bb3030842a72a85848ab9a81cb425b2154cc099"
+checksum = "f3373de10b8d835d8abd16dfc438a120724eb6e7bf5c995742ff87f08d6e9b5c"
 dependencies = [
  "navree-access",
  "navree-ai",
@@ -2324,9 +2324,9 @@ dependencies = [
 
 [[package]]
 name = "navree-access"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5e19881af85213321e6aeaa846ce4c9e69ce0e5896712cf10a1d3dcff2f38a2c"
+checksum = "505969d72a135796fcf02208d344214e1dcaa27ad2144a8d60ec51d44c633bc1"
 dependencies = [
  "chrono",
  "http",
@@ -2344,9 +2344,9 @@ dependencies = [
 
 [[package]]
 name = "navree-ai"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "811c9ec013ca1f3fa425a7a4c62449aaf3fe657d9df14c3ea97c35eb3344b5f3"
+checksum = "33f65c75ff10ce4cea629779b8892f46d0b83697fb1cb4e999f999c17a786312"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -2386,9 +2386,9 @@ dependencies = [
 
 [[package]]
 name = "navree-api"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4415d068ccda8fc542cfee116bdafa412f3b866d03a14b4cd181de5d14f9ebd"
+checksum = "2fb6d57f7c53dbd20ff732eb0fa7159cfa09166794af45bb42c9588584dbf741"
 dependencies = [
  "http",
  "indexmap",
@@ -2407,9 +2407,9 @@ dependencies = [
 
 [[package]]
 name = "navree-audit"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98e634cdfa8332550e0a5e3711b3334397161b8535a1644581a255dce55c7b45"
+checksum = "684f2f36f2d8b2fa3e6716a375c5d5176bd95587c52cd7beec437b39f20f5ac5"
 dependencies = [
  "chrono",
  "http",
@@ -2429,9 +2429,9 @@ dependencies = [
 
 [[package]]
 name = "navree-auth"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ec1b3743a81a428c370da004be36cf7efad43a85e3b5505cb34838e8715b050"
+checksum = "435b2b93ebc9587abd529a5e80db331ad9ec85b1e873c6c64618c737873a0597"
 dependencies = [
  "base64 0.23.1",
  "chrono",
@@ -2467,9 +2467,9 @@ dependencies = [
 
 [[package]]
 name = "navree-bounded"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69e6b83f53fb5cfa92c3c00171e2f3ad27ce4765fabb9461a0e4a487b0dbdff5"
+checksum = "c1b3f48df1a221073f214032db7c631f8f204ef5e4efc3ba103a2ad837db59bd"
 dependencies = [
  "hashbrown 0.17.1",
  "tokio",
@@ -2477,9 +2477,9 @@ dependencies = [
 
 [[package]]
 name = "navree-cache"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4b619c83f92af5ed226f79c0ec8eb4adbafadb821c7f14357d76f490552e02a"
+checksum = "eb6f1b12f63ae80813e1b96a569da54595eec5f0a6c19cd9b428a3081efd1d11"
 dependencies = [
  "bytes",
  "navree-bounded",
@@ -2498,9 +2498,9 @@ dependencies = [
 
 [[package]]
 name = "navree-config"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f47a90e2c816af5dec4f0e9ca1437be32ca5cfb809171da6dcb69ef9df8b3de3"
+checksum = "0d9dd2aa9ae7479a1768fee9e055d467e6d9f5111e786b5bec682e3837e9c7eb"
 dependencies = [
  "navree-contracts",
  "navree-kernel",
@@ -2515,9 +2515,9 @@ dependencies = [
 
 [[package]]
 name = "navree-contracts"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "822591ac29de73e5e217a72118e60b5dede654a07bd349b1b2a58aac1375abda"
+checksum = "4f8c63cf97ad8ae55aa336f49692e9a67f78feaf6ef4e3d9ed1d8f4c5a2315a0"
 dependencies = [
  "chrono",
  "navree-kernel",
@@ -2529,9 +2529,9 @@ dependencies = [
 
 [[package]]
 name = "navree-crypto"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a19bb2c20377f1e36db762c9a26f0f6234d35c28660bb463cde02ad3292c3987"
+checksum = "09bbd82130ebd7963731395d74d1440b10f72967d9a4758ffb496ce25fae04ee"
 dependencies = [
  "aes-gcm",
  "argon2",
@@ -2557,9 +2557,9 @@ dependencies = [
 
 [[package]]
 name = "navree-db"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4a15583f29146ad50aa09c296478839904d79c74222fe68ea8f9904773a16bce"
+checksum = "8a35e37eb403895ea7bb819d4b89a00b86be501f19a517b97b7f3a85365260a3"
 dependencies = [
  "base64 0.23.1",
  "chrono",
@@ -2586,9 +2586,9 @@ dependencies = [
 
 [[package]]
 name = "navree-directory"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9898df61aba8f096d3d9c9a6e486f1fe39352f2449a9520f55798f296e43db96"
+checksum = "4920f02a36258e3cac41df25cfd66316e2a4bba50345562852a0dc4219aaad46"
 dependencies = [
  "bytes",
  "chrono",
@@ -2621,9 +2621,9 @@ dependencies = [
 
 [[package]]
 name = "navree-documents"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac4d96d50157f39cda1641830acef1422eb509e06a75e5ab97ba5b98cacd3ec9"
+checksum = "9488fe2c5a80ea359188f02d5be06998097a7f11e5c8a6efe0f088bfc3e954bc"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -2648,9 +2648,9 @@ dependencies = [
 
 [[package]]
 name = "navree-domains"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "009b86ceb7e958ced1501afda3d32557f5d41e1ef249a63506c58d95121c3779"
+checksum = "cb3177dad395b9dc014c61a015946fa7c1b01b132fbcb161eb8eaa34bc003db6"
 dependencies = [
  "bytes",
  "chrono",
@@ -2689,9 +2689,9 @@ dependencies = [
 
 [[package]]
 name = "navree-events"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8372de43fb9b5b27c9b1ac443e7a5aae28f4efe96436a2598f1e18fe6adf1360"
+checksum = "af5a43e606d7f6ee870f35f7abea8baeef5d952b80cb719f5775717019ab84bf"
 dependencies = [
  "navree-contracts",
  "navree-kernel",
@@ -2705,9 +2705,9 @@ dependencies = [
 
 [[package]]
 name = "navree-fleet"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cf5ab5d18d73011f1c54a41eed9be14c743b4f49d46074012dcf509ef1b002ae"
+checksum = "7648b84b2d254898b93163a990e09636c27b716985c99210df953e30729985df"
 dependencies = [
  "chrono",
  "http",
@@ -2737,15 +2737,15 @@ dependencies = [
 
 [[package]]
 name = "navree-glob"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3624aaf5c1a85a7e49ed9137f5ef29bea2cc234d52ceb1a859a5ff6d4135a43a"
+checksum = "7c9c1ad6b647bed8f7a05f28595e0aa126103862a7132f075a04862cd6f49f41"
 
 [[package]]
 name = "navree-grpc"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fa5bf4008b5e3dec1a0ee626c1ba20bebc3226b5d888f8ad25aa4aa0747d3ebb"
+checksum = "86dfafd0f600e54d52dbb358d72bd2ae7577ab606e35009f48ca0b58f29c9faf"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -2785,9 +2785,9 @@ dependencies = [
 
 [[package]]
 name = "navree-helm"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8da7c6c8d8d32c451bd1e14c20dad164f6c30699b32469e8085170ccdde3c21f"
+checksum = "39dbbb78c5bf80422e4efb2962eb9b16f07e1d2496288b3f997a4e301951d1e1"
 dependencies = [
  "chrono",
  "cookie",
@@ -2823,9 +2823,9 @@ dependencies = [
 
 [[package]]
 name = "navree-http"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4a75edf5515d2215acd22421497b35bfad6aa57975a1c8cd3ec6a578a95efc1"
+checksum = "2c3a88fa620975378d88a4278bba7df27d812d4cc9fd5a40f28f416f356022c3"
 dependencies = [
  "bytes",
  "chrono",
@@ -2864,9 +2864,9 @@ dependencies = [
 
 [[package]]
 name = "navree-http-client"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b1b802a8bb9b06170f315e5187a9376512f38d4d5a26374a78765c2b5eee961"
+checksum = "70196fb1baf0d2cd50060fb0bd4af4eb317ef2da32669aa0689470d4172329fa"
 dependencies = [
  "bytes",
  "chrono",
@@ -2892,9 +2892,9 @@ dependencies = [
 
 [[package]]
 name = "navree-i18n"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fadbaa80b682d8acc0be6f70258d2de1ac3eed63cb06fbf1d6b4440801b19481"
+checksum = "e2bdeb6defc842cda60bc01597410cf380827e5b0b4e6b27043a119867fead61"
 dependencies = [
  "chrono",
  "fixed_decimal",
@@ -2932,9 +2932,9 @@ dependencies = [
 
 [[package]]
 name = "navree-i18n-macros"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3913b2e12cf054f35137d4dbff048a26db9a1930d7971dd74ecc73188d0b8b89"
+checksum = "c5482f9a6ed2a2b1995068790e2f8a1f99e4d12961c2b5b695acd82b12c9822f"
 dependencies = [
  "fluent-syntax",
  "proc-macro2",
@@ -2944,9 +2944,9 @@ dependencies = [
 
 [[package]]
 name = "navree-integrations"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "142a0cfe6aff84403ecbe3635796edfe5833690098a57cc9aa47cba57d0ffe50"
+checksum = "4efc8d2cb0f9e2d9bddf5d86d9c5fd30be26849366c822a58c71bc594d7a972a"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -2980,9 +2980,9 @@ dependencies = [
 
 [[package]]
 name = "navree-kernel"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "898dd3d2cf909d12c9c7a7ed3532bced4c17d5c93c8a0e4fab3a808ae2b529e5"
+checksum = "3cc608e9ce35834e947b2f160c690a4bf6a3f80419cd8cb7660bc2dd3d2d887f"
 dependencies = [
  "thiserror",
  "tokio",
@@ -2992,9 +2992,9 @@ dependencies = [
 
 [[package]]
 name = "navree-lighthouse"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96366d2d77c99061b406f80c4d7f5d4179a99618c1504fa2767a4221e20accf4"
+checksum = "d9de3d8fbdd983edd9dbaf268103d602cb37f1a1d25b1f8cad3a2d4cba026750"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -3030,9 +3030,9 @@ dependencies = [
 
 [[package]]
 name = "navree-log"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "583b0edbea3e02d2d8157137612cdd90fd715fb5b5a7f9eae6388a9ecc4a9ee4"
+checksum = "78f9edcb7af4fa8b9cb95d95f80463bc234d74fc6ae8194b28f65c9a3dc101d8"
 dependencies = [
  "navree-config",
  "navree-contracts",
@@ -3050,9 +3050,9 @@ dependencies = [
 
 [[package]]
 name = "navree-logbook"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bc0a07131eb38e8c81613e754bb23f44eacc29f46e66c3a0d118e410c074973a"
+checksum = "56fe2636221d45928d5f4b5d3ca5f567919fbe751bf67e2809da381d1292e7fb"
 dependencies = [
  "bytes",
  "chrono",
@@ -3082,9 +3082,9 @@ dependencies = [
 
 [[package]]
 name = "navree-macros"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd058c438a7c59ac42c327220a094ddf9798df15d0f4c240af3e3161727af3c2"
+checksum = "7c10f2a802275bccd6e09bcb56cae953cd5abadf84d4ea50ff0a60a092eb5492"
 dependencies = [
  "heck",
  "proc-macro-crate",
@@ -3095,9 +3095,9 @@ dependencies = [
 
 [[package]]
 name = "navree-mail"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ef62f0e644a6aca57511fb2449eb8beb78cdfcd59244a45d37c37180fd3f61b5"
+checksum = "612783c6a3b68e986347982edbdd3d3794f8fd6e4f13be679deb07b528ae7e5b"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -3141,18 +3141,18 @@ dependencies = [
 
 [[package]]
 name = "navree-markdown"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a7e9d8f67c7dc3409b5f4fd646628960391b5cd20d0afd41e20306b1d6161e34"
+checksum = "9a9c3a1ed85540d0f19c0fd306823f7f3714bdbda4aefe05c8c5510b428e108e"
 dependencies = [
  "pulldown-cmark",
 ]
 
 [[package]]
 name = "navree-mcp"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "393a6798fd148692adb4a821f13157d3733a847f019afea888f6b00fb4d96ab7"
+checksum = "0fbf12cb18d86b5f37258b83286120e5b305c171e88ffa659fcdccf89beccc26"
 dependencies = [
  "async-trait",
  "base64 0.23.1",
@@ -3185,9 +3185,9 @@ dependencies = [
 
 [[package]]
 name = "navree-micro"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1789199e083fc6db59c081e0154984b0329ea1dfc2e8728066b50964091ca9a3"
+checksum = "5bba0ed01220bbfd03db6a1333454e0b61848bf1fcf1406e4b3687e0bba668f5"
 dependencies = [
  "bytes",
  "chrono",
@@ -3219,9 +3219,9 @@ dependencies = [
 
 [[package]]
 name = "navree-notify"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1efa82ba34c79c627f1a778b7e1aab129fe8b566c6d7482c7ad34fc74722d08f"
+checksum = "02ba47201858e89eb9ab1c2b5f1b69a7371b84eb02c1ed5d62edbe4aff640d4e"
 dependencies = [
  "base64 0.23.1",
  "chrono",
@@ -3255,9 +3255,9 @@ dependencies = [
 
 [[package]]
 name = "navree-oauth"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "75c268d1a7b322cded26f2cada87b8d86a00da139ac091c7250e00eed136d4a9"
+checksum = "8fe3a4a9aa7e6ace486e4328f02b49624109b6046070665483385bf9ae2d29be"
 dependencies = [
  "base64 0.23.1",
  "chrono",
@@ -3290,9 +3290,9 @@ dependencies = [
 
 [[package]]
 name = "navree-observe"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e7ea5240ff8d1b0465f606bdaeae460144a11589534b59429a368ae62a4259ab"
+checksum = "916e26aa815df5655ff0544e8a144340c1ba869d0a34bc49b62f23b7c6086ce9"
 dependencies = [
  "chrono",
  "futures-util",
@@ -3313,9 +3313,9 @@ dependencies = [
 
 [[package]]
 name = "navree-openapi"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59e051342b1ef6619c374dca76780c9ae94360eed4b35c9b1c9a53ec6d62fe72"
+checksum = "f64bd079d61dfa8bba6481807c2a300646717976731104daf8fa0974e2bd64ab"
 dependencies = [
  "chrono",
  "indexmap",
@@ -3327,9 +3327,9 @@ dependencies = [
 
 [[package]]
 name = "navree-orm"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "33cfb4936eed35537651c4fcdf2874d07d4d058c0a8fe142cb01d22f12ec19cd"
+checksum = "f0eccff1b991169903353ef0410cd3957fb9404867905321bf5490ae384deba9"
 dependencies = [
  "argon2",
  "base64 0.23.1",
@@ -3365,9 +3365,9 @@ dependencies = [
 
 [[package]]
 name = "navree-orm-macros"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "db443870f191b6a56c1f4668717ce1835d17ae0e5c4f44deb3190377657af4bb"
+checksum = "8c91dd80652666cdfe82cc98fbbccd0f8b0263523dd5ef4616cb9181f82e09de"
 dependencies = [
  "chrono",
  "heck",
@@ -3379,9 +3379,9 @@ dependencies = [
 
 [[package]]
 name = "navree-pdf"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b4949b47f0fce727d5d42e4b0461337572df3fdd0ca0a72fa7dec4ed1fe9785"
+checksum = "5ccc64752e37dc5336d67b6d9995d2e0b4ceeae4682b0ac21b2b615bf31bacae"
 dependencies = [
  "aes",
  "bytes",
@@ -3397,18 +3397,18 @@ dependencies = [
 
 [[package]]
 name = "navree-phone"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55e9a8a1f870e83ae837603f41d19f47f39b22b4179fe2b1518adb6fffac390b"
+checksum = "1a7bef9f91fe69cbcf5d16b24d6c7fc167a2f11090de03baf509dc999ec9a1c9"
 dependencies = [
  "serde",
 ]
 
 [[package]]
 name = "navree-queue"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d957b132ee205237e0a36b81a418072c0ecb700bd845614010885fbc2cad9c6b"
+checksum = "10c3b6034d5db7fe9f7766e8c8dd51fd476ee4be2e9da7b554dccb400ad7e97c"
 dependencies = [
  "chrono",
  "futures-util",
@@ -3437,9 +3437,9 @@ dependencies = [
 
 [[package]]
 name = "navree-realtime"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2d21550dbb2e73df5a50199014cd39f9595ca61d96f5016bb8ec655c0ae6a341"
+checksum = "c5ec7684a27c8a1b8fcbf0489552f2d071c9e11240787f561d1d6b0c3f347414"
 dependencies = [
  "bytes",
  "dashmap",
@@ -3468,9 +3468,9 @@ dependencies = [
 
 [[package]]
 name = "navree-schedule"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "85ba24b741d08513e5fd6e041852a79051d3ab70aaa6909aa36620df2a40f99b"
+checksum = "593dc5f646fa154742d68d26751363ff108585b283a933d4f39f79ed99424416"
 dependencies = [
  "chrono",
  "futures-util",
@@ -3489,9 +3489,9 @@ dependencies = [
 
 [[package]]
 name = "navree-schema"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae9b831530f2d38005e03775150bab23d0dadce170d1e44198548fd77221844d"
+checksum = "00544cff146d7a948c50650b10502294bd61b038e559dd54e1ce584c0a841921"
 dependencies = [
  "navree-config",
  "serde",
@@ -3503,9 +3503,9 @@ dependencies = [
 
 [[package]]
 name = "navree-session"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "afc28de433d5f0a3f1d7f8b659fab2765246df20151a5565ac4ae48858c3385a"
+checksum = "9481d8e7c52eda93c8db5c314ed2848f4d91c009b696452d5b824453c531af97"
 dependencies = [
  "chrono",
  "cookie",
@@ -3531,9 +3531,9 @@ dependencies = [
 
 [[package]]
 name = "navree-settings"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "939850b2b73019b4f94b1fbb8480af532194fc96af735ade9355a3ca06c2a7d1"
+checksum = "ce28450d57bd0fb17e5c20214529bf550f84b6bdb3f3657e3fe6708a55e4b7e1"
 dependencies = [
  "chrono",
  "http",
@@ -3563,9 +3563,9 @@ dependencies = [
 
 [[package]]
 name = "navree-sheets"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a4e8864df2cf8fe6d226c66ff375526278d0ce30b509267e98127ef48395165"
+checksum = "006019d53c31db6b64da5b2853dc7e8d79f0493a973a234c826b2de7022ace64"
 dependencies = [
  "bytes",
  "chardetng",
@@ -3602,9 +3602,9 @@ dependencies = [
 
 [[package]]
 name = "navree-sso"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5cd1d15ab472622f4a4312abf753daab9061a8e5a1201f26cb811bda9bc89c4e"
+checksum = "572deba6d954967b27319161f4394e2e4721a5a33d80dbcb84d618a9fb2ee50f"
 dependencies = [
  "base64 0.23.1",
  "chrono",
@@ -3637,9 +3637,9 @@ dependencies = [
 
 [[package]]
 name = "navree-storage"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4faa1f7ac558e4bed71d207478b428099b9e5f8b08c162ec40313b904ef5994"
+checksum = "5fdcead923287bf1b5d05e9830d435bf63fde2b033fab2e3d32823e34cad3a0e"
 dependencies = [
  "bytes",
  "chrono",
@@ -3666,9 +3666,9 @@ dependencies = [
 
 [[package]]
 name = "navree-telemetry"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bed9275b6a23d11f0f6e76bdb8654f9abc6ec00af22200d77841104d7eae61ba"
+checksum = "6a89c8917a1a1fe02b75c353b4bb005685a15c08c04e42be43ba9f6e5b69dd6b"
 dependencies = [
  "chrono",
  "navree-kernel",
@@ -3680,9 +3680,9 @@ dependencies = [
 
 [[package]]
 name = "navree-template"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c75414dabb3b3b9aeb5a7899f6547c4e2241a12725d04c2d05fe6e8c2496238"
+checksum = "5914202929314cfcc44c2f87a16da2dc0f83277c4a95e3d20dea7c81996ab70c"
 dependencies = [
  "serde",
  "stacker",
@@ -3690,9 +3690,9 @@ dependencies = [
 
 [[package]]
 name = "navree-testing"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3bd7f13f79bd10788ef92510b4440e4f885fa21862c842b759023710feb977a4"
+checksum = "fe92c932065738a798b92cd6d6d56099604f366572a92f5688945e7d51b9a8c6"
 dependencies = [
  "bytes",
  "cookie",
@@ -3712,9 +3712,9 @@ dependencies = [
 
 [[package]]
 name = "navree-time"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0db0dcc3f2bdbe58930996f76f07c0cec26e46b257e5990e18b7d638eeb4f4c"
+checksum = "99542dd7d41c2d676ac200d152f233c2c2703aff2fadb17f9e644b346a505ff8"
 dependencies = [
  "chrono",
  "chrono-tz",
@@ -3734,9 +3734,9 @@ dependencies = [
 
 [[package]]
 name = "navree-ui"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc45d0e50a51b4743d17edc312b7b01b9764d517fb184e374de51a851dad5180"
+checksum = "146ac9c20a3aed75f9e9803cc4981c234cf1707a5c942d244fed37067dab261e"
 dependencies = [
  "base64 0.23.1",
  "brotli",
@@ -3771,9 +3771,9 @@ dependencies = [
 
 [[package]]
 name = "navree-ui-macros"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2af4ed2aba8e19098018b10c0c57136aa4204306d7c17f3d767a130d4c2de690"
+checksum = "c103003aeabd7a1688ed0a7c29a1bf5106827eee8503eee3d83f5f31ed0ef908"
 dependencies = [
  "heck",
  "proc-macro-crate",
@@ -3784,9 +3784,9 @@ dependencies = [
 
 [[package]]
 name = "navree-validation"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45e2fbe31e6b78af875ce9c444bd970547b09f59fafb337fce0fcfb6cbdd5083"
+checksum = "9e607618949957b1219b75f4c70163fef9d2eb7b25c3e4c3e9987e874c3e453b"
 dependencies = [
  "chrono",
  "form_urlencoded",
@@ -3815,9 +3815,9 @@ dependencies = [
 
 [[package]]
 name = "navree-validation-macros"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b1c838caccb386db27048399126c43bc75a91787125a4fa99a8a98e5a2eaf96"
+checksum = "8fcc37d60ec051a634ccf35a111729ac8f21cd16bb1577282571f92b58014c2c"
 dependencies = [
  "heck",
  "proc-macro-crate",
@@ -3829,9 +3829,9 @@ dependencies = [
 
 [[package]]
 name = "navree-view"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b5f896bda662655a23215a4c9fde6350c5383d2a35a93858c514420079a2ee6e"
+checksum = "9b9d75b7781352dc1fb3cd2b54ff072a0f3d4932a8c096197df8be5f055af052"
 dependencies = [
  "chrono",
  "navree-config",
@@ -3845,9 +3845,9 @@ dependencies = [
 
 [[package]]
 name = "navree-webhooks"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8af15fc02c7d4d039a3ea4826600f63bd1254ab806371c4d95e192dd47465548"
+checksum = "62880bfffc0af2841995a614cbe5b63fa5993de1b6c745743cfc39b35752290f"
 dependencies = [
  "base64 0.23.1",
  "bytes",
@@ -3885,9 +3885,9 @@ dependencies = [
 
 [[package]]
 name = "navree-workflows"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "29354ab50f8ee8c37514866cf953732a4eb9661946eecc9890b1433e2b44f1d3"
+checksum = "892019e71f1a907bbbe31e4555578322ec5d11d4edaad04a603aa658af442c5f"
 dependencies = [
  "chrono",
  "futures-util",
@@ -3912,9 +3912,9 @@ dependencies = [
 
 [[package]]
 name = "navree-workspace"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5331478915fd8d9a60d76a4299092057fde623eb08f3fc94ebffc75265b8ca0c"
+checksum = "1080ef106f72b48a431d6acf9ce19efc158fc0c2d7563fa1a22a42088bf25def"
 dependencies = [
  "base64 0.23.1",
  "chrono",
