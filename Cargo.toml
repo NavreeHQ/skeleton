@@ -9,7 +9,7 @@ publish = false
 chrono = { version = "0.4", features = ["serde"] }
 futures-util = "0.3"
 http = "1"
-navree = { version = "1.0.2", features = ["postgres"] }
+navree = { version = "1.1.0", features = ["postgres"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tokio = { version = "1", features = ["sync", "time"] }
@@ -19,7 +19,7 @@ uuid = { version = "1", features = ["serde", "v7"] }
 [dev-dependencies]
 # The tests boot the app on a fresh SQLite file each, so they turn the SQLite
 # driver on; the app itself compiles only the driver of its own database.
-navree = { version = "1.0.2", features = ["sqlite"] }
+navree = { version = "1.1.0", features = ["sqlite"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 
 [features]
