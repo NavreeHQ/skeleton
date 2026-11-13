@@ -47,7 +47,7 @@ http://127.0.0.1:8080/api/docs.
 The CLI keeps a few commands for itself: `new`, `make:*`, `dev`, `check`, `gate`,
 `dock`, `dock:add`, `dock:remove`, Harbor's commands (`deploy`, `deploy:rollback`,
 `deploy:releases`, `build:image` and `harbor:*`), `mcp`, `skills:install`,
-`browser:install` and `openapi:client`. Every other command runs in the app binary
+`browser:install`, `openapi:client`, `native:coverage` and `native:doctor`. Every other command runs in the app binary
 (`cargo run -- <command>`), so production servers only need that binary.
 
 ## Layout
