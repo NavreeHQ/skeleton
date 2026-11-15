@@ -21,6 +21,7 @@ use navree::queue::QueueModule;
 use navree::realtime::RealtimeModule;
 use navree::schedule::{ModuleBuilderScheduleExt, ScheduleModule};
 use navree::session::SessionModule;
+use navree::time::TimeModule;
 use navree::ui::UiModule;
 use navree::validation::ValidationModule;
 use navree::view::ViewModule;
@@ -73,6 +74,9 @@ pub fn app(sources: ConfigSources) -> AppBuilder {
         // workspace when it names one: the `X-Workspace` header, or, for a
         // browser, the workspace it last switched to.
         .module(WorkspaceModule::from_config())
+        // Time zones: a request's day is counted in its workspace's zone, else in
+        // `time.default_zone` (`[time]` in config/app.toml).
+        .module(TimeModule::from_config())
         // OpenAPI (`/api/openapi.json`, `/api/docs`), health and metrics.
         .module(ApiModule::from_config())
         .module(ObserveModule::from_config())

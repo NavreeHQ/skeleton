@@ -78,6 +78,11 @@ default_region = "IN"
 default_locale = "en-IN"
 locales = ["en-IN", "hi"]
 
+[time]
+# The zone a day is counted in when a workspace has none of its own: the day a
+# new customer joins is today in this zone. Any IANA name works.
+default_zone = "Asia/Kolkata"
+
 [api]
 title = "Skeleton API"
 # The Lighthouse and Logbook dashboards are pages, not API routes:
