@@ -5,12 +5,12 @@
 use navree::db::MigrationSet;
 use navree::schema::migration;
 
-mod m20261111_044813_create_user_profiles_table;
+mod m20261126_101527_create_user_profiles_table;
 
 /// The module's migration set, run after navree-auth's (`auth`), which
 /// creates the `users` table.
 pub fn migrations() -> MigrationSet {
     MigrationSet::new("users")
         .after(["auth"])
-        .migration(migration!(m20261111_044813_create_user_profiles_table))
+        .migration(migration!(m20261126_101527_create_user_profiles_table))
 }
