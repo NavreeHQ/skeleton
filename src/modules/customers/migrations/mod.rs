@@ -5,9 +5,9 @@
 use navree::db::MigrationSet;
 use navree::schema::migration;
 
-mod m20261126_101527_create_customers_table;
+mod m20261127_123924_create_customers_table;
 
 /// The module's migration set.
 pub fn migrations() -> MigrationSet {
-    MigrationSet::new("customers").migration(migration!(m20261126_101527_create_customers_table))
+    MigrationSet::new("customers").migration(migration!(m20261127_123924_create_customers_table))
 }
