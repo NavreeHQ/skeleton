@@ -44,7 +44,7 @@ http://127.0.0.1:8080/api/docs.
 | `navree queue:work` | Runs queued jobs |
 | `navree list` | Lists every command of the app (`navree --help` lists the CLI's own) |
 
-The CLI keeps a few commands for itself: `new`, `make:*`, `plugin:*`, `dev`, `check`, `gate`,
+The CLI keeps a few commands for itself: `new`, `make:*`, `plugin:*`, `upgrade`, `dev`, `check`, `gate`,
 `dock`, `dock:add`, `dock:remove`, Harbor's commands (`deploy`, `deploy:rollback`,
 `deploy:releases`, `build:image` and `harbor:*`), `mcp`, `skills:install`,
 `browser:install`, `openapi:client`, `native:coverage`, `native:doctor` and `native:init`. Every other command runs in the app binary
